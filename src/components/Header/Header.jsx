@@ -1,6 +1,6 @@
 import React, { useLayoutEffect, useRef } from "react";
 import NavLink from "../NavLinks/NavLinks";
-import Logo from "../Logo/logo";
+import Logo from "../Logo/Logo";
 import gsap from "gsap";
 import "./header.css";
 

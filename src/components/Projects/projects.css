@@ -23,6 +23,7 @@
     font-size : 34px;
     color : #CCD6F6;
     font-family: var(--heading-font);
+    
 }
 .card-project.odd-class .content p{
     margin-left : 0px;

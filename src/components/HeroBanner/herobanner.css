@@ -1,0 +1,98 @@
+.hero-banner {
+  display: flex;
+  justify-content: left;
+  padding-top: 200px;
+  align-items: center;
+}
+.hero-banner .image_wrapper {
+  position: relative;
+}
+.hero-banner .image_wrapper h3 {
+  position: absolute;
+  top: 0px;
+  right: -75%;
+  font-family: var(--main-font);
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--white-color);
+  line-height: 110%;
+  letter-spacing: 2px;
+}
+.hero-banner .image_wrapper h3:after {
+  position: relative;
+}
+.hero-banner .image_wrapper h3:after {
+  position: absolute;
+  content: "";
+  background-image: url("../../assets//images/Arrow.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: -30px;
+  left: -50%;
+  width: 200px;
+  height: 150px;
+}
+.hero-banner .content-side h2 {
+  font-size: 50px;
+  font-family: var(--main-font);
+  letter-spacing: 2px;
+  line-height: 126%;
+  color: var(--white-color);
+  font-weight: 400;
+}
+.purple-text {
+  color: var(--purple-color);
+}
+.circle-image {
+  position: relative;
+}
+.circle-image:after {
+  position: absolute;
+  content: " ";
+  background-image: url("../../assets/images/circle.png");
+  top: 12px;
+  left: -17px;
+  width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+.hero-banner .content-side h6 {
+  color: var(--white-color);
+  font-family: var(--main-font);
+  font-size: 12px;
+  font-weight: 400;
+  padding-top: 10px;
+}
+.hero-banner .content-side h5 {
+  font-size: 18px;
+  color: var(--white-color);
+  font-weight: 400;
+  font-family: var(--main-font);
+  padding-bottom: 5px;
+  text-decoration: underline;
+}
+.Heading-box h2 {
+  font-size: 44px;
+  font-weight: 400;
+  color: var(--white-color);
+  font-family: var(--main-font);
+  margin-bottom: 10px;
+  line-height: 44px;
+}
+.Heading-box h3 {
+  font-size: 22px;
+  font-weight: 400;
+  color: var(--white-color);
+  font-family: var(--main-font);
+  margin-top: 10px;
+}
+.description p {
+  padding-top: 50px;
+  font-size: 18px;
+  color: var(--white-color);
+  font-family: var(--main-font);
+}
+.text-description{
+  padding : 60px 0px
+}

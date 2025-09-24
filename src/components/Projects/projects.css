@@ -1,0 +1,43 @@
+.card-project{
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.odd-class{
+ flex-direction: row-reverse;
+ margin-left: 0px;
+}
+.card-project .content h5{
+    color : var(--purple-color);
+    font-family: var(--heading-font);
+    font-size: 18px;
+    font-weight: 600;
+}
+.projects{
+    background-image : url('../../assets/images/background-circels.png');
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.card-project .content h3{
+    font-size : 34px;
+    color : #CCD6F6;
+    font-family: var(--heading-font);
+}
+.card-project.odd-class .content p{
+    margin-left : 0px;
+    margin-right: -110px;
+}
+.card-project .content p{
+    padding: 40px;
+    background: #d4d4d41a;
+    backdrop-filter: blur(30px);
+    border-radius: 30px;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Poppins';
+    line-height: 28px;
+    border: 1px solid #11071f;
+    margin-left: -110px;
+    margin-top: 30px;
+}
